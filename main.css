@@ -1,0 +1,175 @@
+html {
+  background: url(images/pic4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*#pic3 {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#me {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    min-height: 100%;
+}*/
+/*#me img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: inherit;
+    min-width: 100%;
+    z-index: -1;
+}*/
+/*
+#cutoutme {
+    z-index: 0;
+    height: 100%;
+    max-height: 100%;
+    right: 35%;
+    position: absolute;
+}*/
+
+#page2 {
+    width: 120%;
+    height: 650px;
+    background: white;
+    z-index: 0;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+#page23 {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid #FBDAE1;
+	border-right: 3000px solid white;
+    position: absolute;
+    top: 1150px;
+    left: 0px;
+}
+#page3 {
+    width: 100%;
+    height: 430px;
+    background: #FBDAE1;
+    z-index: -1;
+    position: absolute;
+    top: 1300px;
+    left: 0px;
+}
+#page34 {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid black;
+	border-left: 3000px solid #FBDAE1;
+    position: absolute;
+    top: 1530px;
+    left: 0px;
+    z-index: -1;
+}
+#page4{
+    width: 100%;
+    height: 150px;
+    background: black;
+    z-index: -1;
+    position: absolute;
+    top: 1730px;
+    left: 0px;
+}
+
+#title1 {
+    font-size: 300%;
+    position: absolute;
+    color: grey;
+    top: 720px;
+    right: 15%;
+}
+#sub1 {
+    font-size: larger;
+    position: absolute;
+    color: darkgrey;
+    top: 830px;
+    right: 15%;
+    text-align: right;
+}
+
+#title2 {
+    font-size: 270%;
+    position: absolute;
+    color: black;
+    top: 1260px;
+    left: 15%;
+}
+#sub2 {
+    font-size: larger;
+    position: absolute;
+    color: hotpink;
+    top: 1385px;
+    left: 15%;
+}
+
+#text3 {
+    font-size: larger;
+    position: absolute;
+    color: white;
+    top: 1760px;
+    text-align: center;
+    width: 100%;
+}
+
+#name {
+    width: 90%;
+    position: fixed;
+    top: 2%;
+    margin: auto;
+    display: block;
+}
+
+.arrow {
+    width: 30px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.arrow:hover {
+    zoom: 120%;
+    cursor: pointer;
+}
+
+#roses {
+    width: 20%;
+    position: absolute;
+    top: 730px;
+    left: 10%;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: lighter;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
